@@ -14,6 +14,7 @@ import { ArtiGeneratorService } from '../../services/arti-generator.service';
 })
 export class ConverterComponent implements OnInit {
   invalidGOJson: boolean = false;
+  invalidUid: boolean = false;
 
   form: FormGroup = this.formBuilder.group({
     uid: [null, [Validators.required, Validators.pattern('^[0-9]*$')]],
@@ -48,7 +49,7 @@ export class ConverterComponent implements OnInit {
 
   uidChanged() {
     // check if go json is entered, else do nothing
-    if (this.isJson(this.form.value.goJson)) {
+    if (this.form.value.goJson) {
       this.goJsonChanged();
     }
   }
@@ -58,19 +59,25 @@ export class ConverterComponent implements OnInit {
     this.form.patchValue({
       grasscutterCommand: '',
     });
-    // Check if entered string is JSON
-    if (this.isJson(this.form.value.goJson)) {
-      var goJson: GOOD = JSON.parse(this.form.value.goJson);
-      console.log(goJson);
-      if (goJson.format == 'GOOD') {
-        this.invalidGOJson = false;
-        console.log('Valid GOOD format.');
-        this.parseGOJson(goJson);
+    // Check if UID is entered
+    if (this.form.value.uid) {
+      this.invalidUid = false;
+      // Check if entered string is JSON
+      if (this.isJson(this.form.value.goJson)) {
+        var goJson: GOOD = JSON.parse(this.form.value.goJson);
+        console.log(goJson);
+        if (goJson.format == 'GOOD') {
+          this.invalidGOJson = false;
+          console.log('Valid GOOD format.');
+          this.parseGOJson(goJson);
+        } else {
+          this.invalidGOJson = true;
+        }
       } else {
         this.invalidGOJson = true;
       }
     } else {
-      this.invalidGOJson = true;
+      this.invalidUid = true;
     }
   }
 

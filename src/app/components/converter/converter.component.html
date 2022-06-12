@@ -13,8 +13,11 @@
                 formControlName="uid"
                 (keyup)="uidChanged()"
               />
-              <mat-hint>This is your Grasscutter UID.</mat-hint>
+              <mat-hint>This is the Grasscutter UID to set the target of the giveart command.</mat-hint>
             </mat-form-field>
+          </p>
+          <p *ngIf="invalidUid">
+            <small class="text-danger">Invalid UID!</small>
           </p>
           <p>
             <mat-form-field appearance="fill">
@@ -33,10 +36,7 @@
             </mat-form-field>
           </p>
           <p *ngIf="invalidGOJson">
-            <small class="text-danger"
-              >Invalid GO JSON! Read note below to get the proper JSON
-              data.</small
-            >
+            <small class="text-danger">Invalid GO JSON! </small>
           </p>
           <p>
             <mat-form-field appearance="fill">
