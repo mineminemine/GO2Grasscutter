@@ -1,197 +1,236 @@
-{
-  "Adventurer": {
+[
+  {
+    "key": "Adventurer",
     "id": "60",
     "name": "Adventurer",
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_10010_4.png"
   },
-  "ArchaicPetra": {
+  {
+    "key": "ArchaicPetra",
     "id": "88",
     "name": "Archaic Petra",
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15014_4.png"
   },
-  "Berserker": {
+  {
+    "key": "Berserker",
     "id": "55",
     "name": "Berserker",
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_10005_4.png"
   },
-  "BlizzardStrayer": {
+  {
+    "key": "BlizzardStrayer",
     "id": "71",
     "name": "Blizzard Strayer",
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_14001_4.png"
   },
-  "BloodstainedChivalry": {
+  {
+    "key": "BloodstainedChivalry",
     "id": "82",
     "name": "Bloodstained Chivalry",
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15008_4.png"
   },
-  "BraveHeart": {
+  {
+    "key": "BraveHeart",
     "id": "52",
     "name": "Brave Heart",
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_10002_4.png"
   },
-  "CrimsonWitchOfFlames": {
+  {
+    "key": "CrimsonWitchOfFlames",
     "id": "80",
     "name": "Crimson Witch Of Flames",
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15006_4.png"
   },
-  "DefendersWill": {
+  {
+    "key": "DefendersWill",
     "id": "53",
     "name": "Defender's Will",
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_10003_4.png"
   },
-  "EchoesOfAnOffering": {
+  {
+    "key": "EchoesOfAnOffering",
     "id": "98",
     "name": "Echoes Of An Offering",
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15024_4.png"
   },
-  "EmblemOfSeveredFate": {
+  {
+    "key": "EmblemOfSeveredFate",
     "id": "94",
     "name": "Emblem Of Severed Fate",
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15020_4.png"
   },
-  "Gambler": {
+  {
+    "key": "Gambler",
     "id": "58",
     "name": "Gambler",
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_10008_4.png"
   },
-  "GladiatorsFinale": {
+  {
+    "key": "GladiatorsFinale",
     "id": "75",
     "name": "Gladiator's Finale",
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15001_4.png"
   },
-  "HeartOfDepth": {
+  {
+    "key": "HeartOfDepth",
     "id": "90",
     "name": "Heart Of Depth",
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15016_4.png"
   },
-  "HuskOfOpulentDreams": {
+  {
+    "key": "HuskOfOpulentDreams",
     "id": "95",
     "name": "Husk Of Opulent Dreams",
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15021_4.png"
   },
-  "Instructor": {
+  {
+    "key": "Instructor",
     "id": "57",
     "name": "Instructor",
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_10007_4.png"
   },
-  "Lavawalker": {
+  {
+    "key": "Lavawalker",
     "id": "73",
     "name": "Lavawalker",
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_14003_4.png"
   },
-  "LuckyDog": {
+  {
+    "key": "LuckyDog",
     "id": "61",
     "name": "Lucky Dog",
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_10011_4.png"
   },
-  "MaidenBeloved": {
+  {
+    "key": "MaidenBeloved",
     "id": "74",
     "name": "Maiden Beloved",
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_14004_4.png"
   },
-  "MartialArtist": {
+  {
+    "key": "MartialArtist",
     "id": "56",
     "name": "Martial Artist",
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_10006_4.png"
   },
-  "NoblesseOblige": {
+  {
+    "key": "NoblesseOblige",
     "id": "81",
     "name": "Noblesse Oblige",
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15007_4.png"
   },
-  "OceanHuedClam": {
+  {
+    "key": "OceanHuedClam",
     "id": "96",
     "name": "Ocean Hued Clam",
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15022_4.png"
   },
-  "PaleFlame": {
+  {
+    "key": "PaleFlame",
     "id": "92",
     "name": "Pale Flame",
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15018_4.png"
   },
-  "PrayersForDestiny": {
+  {
+    "key": "PrayersForDestiny",
     "id": "84",
     "name": "Prayers For Destiny",
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15010_3.png"
   },
-  "PrayersForIllumination": {
+  {
+    "key": "PrayersForIllumination",
     "id": "83",
     "name": "Prayers For Illumination",
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15009_3.png"
   },
-  "PrayersForWisdom": {
+  {
+    "key": "PrayersForWisdom",
     "id": "85",
     "name": "Prayers For Wisdom",
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15011_3.png"
   },
-  "PrayersToSpringtime": {
+  {
+    "key": "PrayersToSpringtime",
     "id": "87",
     "name": "Prayers To Springtime",
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15013_3.png"
   },
-  "ResolutionOfSojourner": {
+  {
+    "key": "ResolutionOfSojourner",
     "id": "51",
     "name": "Resolution Of Sojourner",
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_10001_4.png"
   },
-  "RetracingBolide": {
+  {
+    "key": "RetracingBolide",
     "id": "89",
     "name": "Retracing Bolide",
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15015_4.png"
   },
-  "Scholar": {
+  {
+    "key": "Scholar",
     "id": "62",
     "name": "Scholar",
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_10012_4.png"
   },
-  "ShimenawasReminiscence": {
+  {
+    "key": "ShimenawasReminiscence",
     "id": "93",
     "name": "Shimenawa's Reminiscence",
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15019_4.png"
   },
-  "TenacityOfTheMillelith": {
+  {
+    "key": "TenacityOfTheMillelith",
     "id": "91",
     "name": "Tenacity Of The Millelith",
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15017_4.png"
   },
-  "TheExile": {
+  {
+    "key": "TheExile",
     "id": "59",
     "name": "The Exile",
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_10009_4.png"
   },
-  "ThunderingFury": {
+  {
+    "key": "ThunderingFury",
     "id": "79",
     "name": "Thundering Fury",
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15005_4.png"
   },
-  "Thundersoother": {
+  {
+    "key": "Thundersoother",
     "id": "72",
     "name": "Thundersoother",
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_14002_4.png"
   },
-  "TinyMiracle": {
+  {
+    "key": "TinyMiracle",
     "id": "54",
     "name": "Tiny Miracle",
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_10004_4.png"
   },
-  "TravelingDoctor": {
+  {
+    "key": "TravelingDoctor",
     "id": "63",
     "name": "Traveling Doctor",
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_10013_4.png"
   },
-  "VermillionHereafter": {
+  {
+    "key": "VermillionHereafter",
     "id": "97",
     "name": "Vermillion Hereafter",
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15023_4.png"
   },
-  "ViridescentVenerer": {
+  {
+    "key": "ViridescentVenerer",
     "id": "76",
     "name": "Viridescent Venerer",
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15002_4.png"
   },
-  "WanderersTroupe": {
+  {
+    "key": "WanderersTroupe",
     "id": "77",
     "name": "Wanderer's Troupe",
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15003_4.png"
   }
-}
+]

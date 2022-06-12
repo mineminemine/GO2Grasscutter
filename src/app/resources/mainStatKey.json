@@ -1,74 +1,20 @@
-[
-  {
-    "key": "hp",
-    "value": "10001"
-  },
-  {
-    "key": "hp_",
-    "value": "10002"
-  },
-  {
-    "key": "atk",
-    "value": "10003"
-  },
-  {
-    "key": "atk_",
-    "value": "10004"
-  },
-  {
-    "key": "def",
-    "value": "10005"
-  },
-  {
-    "key": "def_",
-    "value": "10006"
-  },
-  {
-    "key": "eleMas",
-    "value": "10008"
-  },
-  {
-    "key": "enerRech_",
-    "value": "10007"
-  },
-  {
-    "key": "heal_",
-    "value": "13009"
-  },
-  {
-    "key": "critRate_",
-    "value": "13007"
-  },
-  {
-    "key": "critDMG_",
-    "value": "13008"
-  },
-  {
-    "key": "physical_dmg_",
-    "value": "15015"
-  },
-  {
-    "key": "anemo_dmg_",
-    "value": "15012"
-  },
-  {
-    "key": "geo_dmg_",
-    "value": "15013"
-  },
-  {
-    "key": "electro_dmg_",
-    "value": "15009"
-  },
-  {
-    "key": "hydro_dmg_",
-    "value": "15011"
-  },
-  {
-    "key": "pyro_dmg_",
-    "value": "15008"
-  },
-  {
-    "key": "cryo_dmg_",
-    "value": "15010"
-  }
-]
+{
+  "hp": "10001",
+  "hp_": "10002",
+  "atk": "10003",
+  "atk_": "10004",
+  "def": "10005",
+  "def_": "10006",
+  "eleMas": "10008",
+  "enerRech_": "10007",
+  "heal_": "13009",
+  "critRate_": "13007",
+  "critDMG_": "13008",
+  "physical_dmg_": "15015",
+  "anemo_dmg_": "15012",
+  "geo_dmg_": "15013",
+  "electro_dmg_": "15009",
+  "hydro_dmg_": "15011",
+  "pyro_dmg_": "15008",
+  "cryo_dmg_": "15010"
+}

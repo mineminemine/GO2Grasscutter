@@ -1,64 +1,23 @@
-<div class="content-flex">
-  <mat-card class="mat-elevation-z4">
-    <mat-card-content>
-      <form [formGroup]="form">
-        <p>
-          <mat-form-field appearance="fill">
-            <mat-label>Grasscutter UID</mat-label>
-            <input
-              matInput
-              rows="6"
-              placeholder="eg. 10001"
-              formControlName="uid"
-              (keyup)="goJsonChanged()"
-            />
-          </mat-form-field>
-        </p>
-        <p>Note: This is your Grasscutter UID.</p>
-        <p>
-          <mat-form-field appearance="fill">
-            <mat-label>GO JSON Data</mat-label>
-            <textarea
-              matInput
-              rows="6"
-              placeholder="Please enter your GO JSON data here.."
-              formControlName="goJson"
-              (keyup)="goJsonChanged()"
-            ></textarea>
-          </mat-form-field>
-        </p>
-        <p *ngIf="invalidGOJson">
-          <small class="text-danger"
-            >Invalid GO JSON! Read note below to get the proper JSON
-            data.</small
-          >
-        </p>
-        <p>
-          Note: The GO JSON data can be copied in the Database Download section
-          from your GO Settings page
-          <a
-            href="https://frzyc.github.io/genshin-optimizer/#/setting"
-            target="blank"
-            >here</a
+<div fxLayout="column" fxFlexFill>
+  <div fxFlex fxLayoutAlign="center center">
+    <mat-card style="width: 50vw">
+      <mat-card-title>What is GO2Grasscutter?</mat-card-title>
+      <mat-card-subtitle>v{{ currentApplicationVersion }}</mat-card-subtitle>
+
+      <mat-card-content>
+        <p style="text-align: justify; text-justify: inter-word">
+          This tool reads Genshin Optimizer's JSON Data and converts it to
+          Grasscutter's giveart commands. You can find your JSON data on GO's
+          Settings page
+          <a href="https://frzyc.github.io/genshin-optimizer/#/setting">here</a
           >.
         </p>
-        <p>
-          <mat-form-field appearance="fill">
-            <mat-label>Grasscutter Command</mat-label>
-            <textarea
-              matInput
-              rows="6"
-              formControlName="grasscutterCommand"
-              readonly="true"
-              (click)="copyGrasscutterCommand()"
-            ></textarea>
-          </mat-form-field>
+        <p style="text-align: justify; text-justify: inter-word">
+          Note: This tool cannot obtain your artifact data directly from the
+          official servers, you will need to manually put them in Genshin
+          Optimizer before using this tool.
         </p>
-        <p>
-          Note: The Grasscutter Command can be pasted into Grasscutter's command
-          console by right-clicking inside the console.
-        </p>
-      </form>
-    </mat-card-content>
-  </mat-card>
+      </mat-card-content>
+    </mat-card>
+  </div>
 </div>

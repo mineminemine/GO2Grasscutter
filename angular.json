@@ -112,5 +112,8 @@
       }
     }
   },
-  "defaultProject": "GO2Grasscutter"
+  "defaultProject": "GO2Grasscutter",
+  "cli": {
+    "analytics": false
+  }
 }
