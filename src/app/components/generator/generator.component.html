@@ -21,13 +21,29 @@
           </p>
           <p>
             <mat-form-field appearance="fill">
+              <mat-label>Rarity</mat-label>
+              <mat-select
+                formControlName="rarity"
+                (selectionChange)="rarityChanged()"
+              >
+                <mat-option
+                  *ngFor="let rarity of rarities"
+                  [value]="rarity.key"
+                >
+                  {{ rarity.value }}
+                </mat-option>
+              </mat-select>
+            </mat-form-field>
+          </p>
+          <p>
+            <mat-form-field appearance="fill">
               <mat-label>Artifact Set</mat-label>
               <input
                 matInput
-                [matAutocomplete]="auto"
+                [matAutocomplete]="artifactSets"
                 formControlName="artifactSet"
               />
-              <mat-autocomplete #auto="matAutocomplete">
+              <mat-autocomplete #artifactSets="matAutocomplete">
                 <mat-option
                   *ngFor="let artifact of filteredArtifactSets | async"
                   [value]="artifact.name"
@@ -54,13 +70,37 @@
           </p>
           <p>
             <mat-form-field appearance="fill">
+              <mat-label>Slot</mat-label>
+              <mat-select formControlName="slot">
+                <mat-select-trigger>
+                  <img
+                    class="option-img"
+                    aria-hidden
+                    [src]="getSlotImageUrl(form.controls['slot'].value)"
+                    height="20px"
+                  />
+                  {{ getSlotName(form.controls["slot"].value) }}
+                </mat-select-trigger>
+                <mat-option *ngFor="let slot of slots" [value]="slot.key">
+                  <img
+                    class="option-img"
+                    aria-hidden
+                    [src]="slot.imageUrl"
+                    height="25"
+                  />
+                  {{ slot.name }}
+                </mat-option>
+              </mat-select>
+            </mat-form-field>
+          </p>
+          <p>
+            <mat-form-field appearance="fill">
               <mat-label>Grasscutter Command</mat-label>
-              <textarea
+              <input
                 matInput
-                rows="6"
                 formControlName="grasscutterCommand"
                 readonly="true"
-              ></textarea>
+              />
               <mat-hint
                 >The Grasscutter Command can be pasted into Grasscutter's
                 command console by right-clicking inside the console.</mat-hint

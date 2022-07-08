@@ -1,0 +1,104 @@
+[
+  {
+    "key": "hp",
+    "value": "10001",
+    "name": "HP",
+    "validSlots": ["flower"]
+  },
+  {
+    "key": "hp_",
+    "value": "10001",
+    "name": "HP%",
+    "validSlots": ["sands", "goblet", "cirlet"]
+  },
+  {
+    "key": "atk",
+    "value": "10001",
+    "name": "ATK",
+    "validSlots": ["plume"]
+  },
+  {
+    "key": "atk_",
+    "value": "10001",
+    "name": "ATK%",
+    "validSlots": ["sands", "goblet", "cirlet"]
+  },
+  {
+    "key": "def_",
+    "value": "10001",
+    "name": "DEF%",
+    "validSlots": ["sands", "goblet", "cirlet"]
+  },
+  {
+    "key": "eleMas",
+    "value": "10001",
+    "name": "Elemental Mastery",
+    "validSlots": ["sands", "goblet", "cirlet"]
+  },
+  {
+    "key": "enerRech_",
+    "value": "10001",
+    "name": "Energy Recharge",
+    "validSlots": ["sands"]
+  },
+  {
+    "key": "heal_",
+    "value": "10001",
+    "name": "Healing Bonus",
+    "validSlots": ["cirlet"]
+  },
+  {
+    "key": "critRate_",
+    "value": "10001",
+    "name": "Crit Rate",
+    "validSlots": ["cirlet"]
+  },
+  {
+    "key": "critDMG_",
+    "value": "10001",
+    "name": "Crit DMG",
+    "validSlots": ["cirlet"]
+  },
+  {
+    "key": "physical_dmg_",
+    "value": "10001",
+    "name": "Physical DMG Bonus",
+    "validSlots": ["goblet"]
+  },
+  {
+    "key": "anemo_dmg_",
+    "value": "10001",
+    "name": "Anemo DMG Bonus",
+    "validSlots": ["goblet"]
+  },
+  {
+    "key": "geo_dmg_",
+    "value": "10001",
+    "name": "Geo DMG Bonus",
+    "validSlots": ["goblet"]
+  },
+  {
+    "key": "electro_dmg_",
+    "value": "10001",
+    "name": "Electro DMG Bonus",
+    "validSlots": ["goblet"]
+  },
+  {
+    "key": "hydro_dmg_",
+    "value": "10001",
+    "name": "Hydro DMG Bonus",
+    "validSlots": ["goblet"]
+  },
+  {
+    "key": "pyro_dmg_",
+    "value": "15008",
+    "name": "Pyro DMG Bonus",
+    "validSlots": ["goblet"]
+  },
+  {
+    "key": "cryo_dmg_",
+    "value": "15010",
+    "name": "Cryo DMG Bonus",
+    "validSlots": ["goblet"]
+  }
+]

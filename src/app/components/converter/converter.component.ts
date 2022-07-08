@@ -61,6 +61,7 @@ export class ConverterComponent implements OnInit {
     });
     // Check if UID is entered
     if (this.form.value.uid) {
+      console.log('uid ', this.form.value.uid);
       this.invalidUid = false;
       // Check if entered string is JSON
       if (this.isJson(this.form.value.goJson)) {

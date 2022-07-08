@@ -1,27 +1,22 @@
 [
   {
     "key": "goblet",
-    "id": "14",
     "name": "Goblet of Eonothem"
   },
   {
     "key": "plume",
-    "id": "24",
     "name": "Plume of Death"
   },
   {
     "key": "circlet",
-    "id": "34",
     "name": "Circlet of Logos"
   },
   {
     "key": "flower",
-    "id": "44",
     "name": "Flower of Life"
   },
   {
     "key": "sands",
-    "id": "54",
     "name": "Sands of Eon"
   }
 ]

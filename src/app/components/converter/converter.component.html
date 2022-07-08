@@ -13,7 +13,10 @@
                 formControlName="uid"
                 (keyup)="uidChanged()"
               />
-              <mat-hint>This is the Grasscutter UID to set the target of the giveart command.</mat-hint>
+              <mat-hint
+                >This is the Grasscutter UID to set the target of the giveart
+                command.</mat-hint
+              >
             </mat-form-field>
           </p>
           <p *ngIf="invalidUid">
@@ -28,6 +31,7 @@
                 placeholder="Please enter your GO JSON data here.."
                 formControlName="goJson"
                 (keyup)="goJsonChanged()"
+                (paste)="goJsonChanged()"
               ></textarea>
               <mat-hint
                 >Paste the copied JSON data that you obtain from Genshin

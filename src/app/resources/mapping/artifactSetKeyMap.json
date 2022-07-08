@@ -3,234 +3,273 @@
     "key": "Adventurer",
     "id": "60",
     "name": "Adventurer",
+    "rarities": [1, 2, 3],
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_10010_4.png"
   },
   {
     "key": "ArchaicPetra",
     "id": "88",
     "name": "Archaic Petra",
+    "rarities": [4, 5],
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15014_4.png"
   },
   {
     "key": "Berserker",
     "id": "55",
     "name": "Berserker",
+    "rarities": [3, 4],
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_10005_4.png"
   },
   {
     "key": "BlizzardStrayer",
     "id": "71",
     "name": "Blizzard Strayer",
+    "rarities": [4, 5],
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_14001_4.png"
   },
   {
     "key": "BloodstainedChivalry",
     "id": "82",
     "name": "Bloodstained Chivalry",
+    "rarities": [4, 5],
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15008_4.png"
   },
   {
     "key": "BraveHeart",
     "id": "52",
     "name": "Brave Heart",
+    "rarities": [3, 4],
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_10002_4.png"
   },
   {
     "key": "CrimsonWitchOfFlames",
     "id": "80",
     "name": "Crimson Witch Of Flames",
+    "rarities": [4, 5],
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15006_4.png"
   },
   {
     "key": "DefendersWill",
     "id": "53",
     "name": "Defender's Will",
+    "rarities": [3, 4],
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_10003_4.png"
   },
   {
     "key": "EchoesOfAnOffering",
     "id": "98",
     "name": "Echoes Of An Offering",
+    "rarities": [4, 5],
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15024_4.png"
   },
   {
     "key": "EmblemOfSeveredFate",
     "id": "94",
     "name": "Emblem Of Severed Fate",
+    "rarities": [4, 5],
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15020_4.png"
   },
   {
     "key": "Gambler",
     "id": "58",
     "name": "Gambler",
+    "rarities": [3, 4],
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_10008_4.png"
   },
   {
     "key": "GladiatorsFinale",
     "id": "75",
     "name": "Gladiator's Finale",
+    "rarities": [4, 5],
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15001_4.png"
   },
   {
     "key": "HeartOfDepth",
     "id": "90",
     "name": "Heart Of Depth",
+    "rarities": [4, 5],
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15016_4.png"
   },
   {
     "key": "HuskOfOpulentDreams",
     "id": "95",
     "name": "Husk Of Opulent Dreams",
+    "rarities": [4, 5],
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15021_4.png"
   },
   {
     "key": "Instructor",
     "id": "57",
     "name": "Instructor",
+    "rarities": [3, 4],
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_10007_4.png"
   },
   {
     "key": "Lavawalker",
     "id": "73",
     "name": "Lavawalker",
+    "rarities": [4, 5],
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_14003_4.png"
   },
   {
     "key": "LuckyDog",
     "id": "61",
     "name": "Lucky Dog",
+    "rarities": [1, 2, 3],
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_10011_4.png"
   },
   {
     "key": "MaidenBeloved",
     "id": "74",
     "name": "Maiden Beloved",
+    "rarities": [4, 5],
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_14004_4.png"
   },
   {
     "key": "MartialArtist",
     "id": "56",
     "name": "Martial Artist",
+    "rarities": [3, 4],
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_10006_4.png"
   },
   {
     "key": "NoblesseOblige",
     "id": "81",
     "name": "Noblesse Oblige",
+    "rarities": [4, 5],
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15007_4.png"
   },
   {
     "key": "OceanHuedClam",
     "id": "96",
     "name": "Ocean Hued Clam",
+    "rarities": [4, 5],
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15022_4.png"
   },
   {
     "key": "PaleFlame",
     "id": "92",
     "name": "Pale Flame",
+    "rarities": [4, 5],
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15018_4.png"
   },
   {
     "key": "PrayersForDestiny",
     "id": "84",
     "name": "Prayers For Destiny",
+    "rarities": [3, 4],
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15010_3.png"
   },
   {
     "key": "PrayersForIllumination",
     "id": "83",
     "name": "Prayers For Illumination",
+    "rarities": [3, 4],
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15009_3.png"
   },
   {
     "key": "PrayersForWisdom",
     "id": "85",
     "name": "Prayers For Wisdom",
+    "rarities": [3, 4],
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15011_3.png"
   },
   {
     "key": "PrayersToSpringtime",
     "id": "87",
     "name": "Prayers To Springtime",
+    "rarities": [3, 4],
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15013_3.png"
   },
   {
     "key": "ResolutionOfSojourner",
     "id": "51",
     "name": "Resolution Of Sojourner",
+    "rarities": [3, 4],
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_10001_4.png"
   },
   {
     "key": "RetracingBolide",
     "id": "89",
     "name": "Retracing Bolide",
+    "rarities": [4, 5],
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15015_4.png"
   },
   {
     "key": "Scholar",
     "id": "62",
     "name": "Scholar",
+    "rarities": [3, 4],
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_10012_4.png"
   },
   {
     "key": "ShimenawasReminiscence",
     "id": "93",
     "name": "Shimenawa's Reminiscence",
+    "rarities": [4, 5],
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15019_4.png"
   },
   {
     "key": "TenacityOfTheMillelith",
     "id": "91",
     "name": "Tenacity Of The Millelith",
+    "rarities": [4, 5],
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15017_4.png"
   },
   {
     "key": "TheExile",
     "id": "59",
     "name": "The Exile",
+    "rarities": [3, 4],
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_10009_4.png"
   },
   {
     "key": "ThunderingFury",
     "id": "79",
     "name": "Thundering Fury",
+    "rarities": [4, 5],
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15005_4.png"
   },
   {
     "key": "Thundersoother",
     "id": "72",
     "name": "Thundersoother",
+    "rarities": [4, 5],
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_14002_4.png"
   },
   {
     "key": "TinyMiracle",
     "id": "54",
     "name": "Tiny Miracle",
+    "rarities": [3, 4],
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_10004_4.png"
   },
   {
     "key": "TravelingDoctor",
     "id": "63",
     "name": "Traveling Doctor",
+    "rarities": [1, 2, 3],
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_10013_4.png"
   },
   {
     "key": "VermillionHereafter",
     "id": "97",
     "name": "Vermillion Hereafter",
+    "rarities": [4, 5],
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15023_4.png"
   },
   {
     "key": "ViridescentVenerer",
     "id": "76",
     "name": "Viridescent Venerer",
+    "rarities": [4, 5],
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15002_4.png"
   },
   {
     "key": "WanderersTroupe",
     "id": "77",
     "name": "Wanderer's Troupe",
+    "rarities": [4, 5],
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15003_4.png"
   }
 ]
