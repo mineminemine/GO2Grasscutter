@@ -9,7 +9,7 @@
     "key": "hp_",
     "value": "10001",
     "name": "HP%",
-    "validSlots": ["sands", "goblet", "cirlet"]
+    "validSlots": ["sands", "goblet", "circlet"]
   },
   {
     "key": "atk",
@@ -21,19 +21,19 @@
     "key": "atk_",
     "value": "10001",
     "name": "ATK%",
-    "validSlots": ["sands", "goblet", "cirlet"]
+    "validSlots": ["sands", "goblet", "circlet"]
   },
   {
     "key": "def_",
     "value": "10001",
     "name": "DEF%",
-    "validSlots": ["sands", "goblet", "cirlet"]
+    "validSlots": ["sands", "goblet", "circlet"]
   },
   {
     "key": "eleMas",
     "value": "10001",
     "name": "Elemental Mastery",
-    "validSlots": ["sands", "goblet", "cirlet"]
+    "validSlots": ["sands", "goblet", "circlet"]
   },
   {
     "key": "enerRech_",
@@ -45,19 +45,19 @@
     "key": "heal_",
     "value": "10001",
     "name": "Healing Bonus",
-    "validSlots": ["cirlet"]
+    "validSlots": ["circlet"]
   },
   {
     "key": "critRate_",
     "value": "10001",
     "name": "Crit Rate",
-    "validSlots": ["cirlet"]
+    "validSlots": ["circlet"]
   },
   {
     "key": "critDMG_",
     "value": "10001",
     "name": "Crit DMG",
-    "validSlots": ["cirlet"]
+    "validSlots": ["circlet"]
   },
   {
     "key": "physical_dmg_",

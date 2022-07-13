@@ -6,3 +6,33 @@
   vertical-align: middle;
   margin-right: 8px;
 }
+
+section {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+section#btnToggles {
+  margin-bottom: 1.1rem;
+}
+
+@media screen and (max-width: 600px) {
+  mat-button-toggle-group {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .leftInputContainer {
+    margin-right: 5px;
+  }
+
+  .rightInputContainer {
+    margin-left: 5px;
+  }
+}
+
+.mat-button-toggle-checked {
+  background-color: #009688;
+}

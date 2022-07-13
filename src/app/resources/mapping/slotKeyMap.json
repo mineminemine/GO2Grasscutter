@@ -1,27 +1,32 @@
 [
   {
-    "key": "goblet",
-    "name": "Goblet of Eonothem",
-    "imageUrl": "/assets/artifacts/slots/goblet.png"
+    "key": "flower",
+    "name": "Flower of Life",
+    "imageUrl": "/assets/artifacts/slots/flower.png",
+    "tooltip": "Flower of Life"
   },
   {
     "key": "plume",
     "name": "Plume of Death",
-    "imageUrl": "/assets/artifacts/slots/plume.png"
-  },
-  {
-    "key": "circlet",
-    "name": "Circlet of Logos",
-    "imageUrl": "/assets/artifacts/slots/circlet.png"
-  },
-  {
-    "key": "flower",
-    "name": "Flower of Life",
-    "imageUrl": "/assets/artifacts/slots/flower.png"
+    "imageUrl": "/assets/artifacts/slots/plume.png",
+    "tooltip": "Plume of Death"
   },
   {
     "key": "sands",
     "name": "Sands of Eon",
-    "imageUrl": "/assets/artifacts/slots/sands.png"
+    "imageUrl": "/assets/artifacts/slots/sands.png",
+    "tooltip": "Sands of Eon"
+  },
+  {
+    "key": "goblet",
+    "name": "Goblet of Eonothem",
+    "imageUrl": "/assets/artifacts/slots/goblet.png",
+    "tooltip": "Goblet of Eonothem"
+  },
+  {
+    "key": "circlet",
+    "name": "Circlet of Logos",
+    "imageUrl": "/assets/artifacts/slots/circlet.png",
+    "tooltip": "Circlet of Logos"
   }
 ]
