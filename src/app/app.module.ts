@@ -23,6 +23,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { MatSelectModule } from '@angular/material/select';
 import { MatAutocompleteModule } from '@angular/material/autocomplete';
+import { MatButtonToggleModule } from '@angular/material/button-toggle';
 
 import { HomeComponent } from './home/home.component';
 import { ConverterComponent } from './components/converter/converter.component';
@@ -57,6 +58,7 @@ import { GeneratorComponent } from './components/generator/generator.component';
     MatListModule,
     MatSelectModule,
     MatAutocompleteModule,
+    MatButtonToggleModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

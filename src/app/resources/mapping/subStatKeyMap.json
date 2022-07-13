@@ -1,0 +1,42 @@
+[
+  {
+    "key": "hp",
+    "name": "HP"
+  },
+  {
+    "key": "hp_",
+    "name": "HP%"
+  },
+  {
+    "key": "atk",
+    "name": "ATK"
+  },
+  {
+    "key": "atk_",
+    "name": "ATK%"
+  },
+  {
+    "key": "def",
+    "name": "DEF"
+  },
+  {
+    "key": "def_",
+    "name": "DEF%"
+  },
+  {
+    "key": "eleMas",
+    "name": "Elemental Mastery"
+  },
+  {
+    "key": "enerRech_",
+    "name": "Energy Recharge"
+  },
+  {
+    "key": "critRate_",
+    "name": "Crit Rate"
+  },
+  {
+    "key": "critDMG_",
+    "name": "Crit DMG"
+  }
+]
