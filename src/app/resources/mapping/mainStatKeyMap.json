@@ -100,5 +100,11 @@
     "value": "15010",
     "name": "Cryo DMG Bonus",
     "validSlots": ["goblet"]
+  },
+  {
+    "key": "dendro_dmg_",
+    "value": "15014",
+    "name": "Dendro DMG Bonus",
+    "validSlots": ["goblet"]
   }
 ]

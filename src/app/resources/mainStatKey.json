@@ -16,5 +16,6 @@
   "electro_dmg_": "15009",
   "hydro_dmg_": "15011",
   "pyro_dmg_": "15008",
-  "cryo_dmg_": "15010"
+  "cryo_dmg_": "15010",
+  "dendro_dmg_": "15014"
 }
