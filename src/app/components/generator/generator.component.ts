@@ -201,13 +201,13 @@ export class GeneratorComponent implements OnInit {
 
   generateCommand() {
     if (this.form.valid) {
-      console.log('valid genearte command');
+      //console.log('valid genearte command');
       var command = this.artiGenerator.generateFromForm(this.form);
       this.form.patchValue({
         grasscutterCommand: command,
       });
     } else {
-      console.log('not valid genearte command');
+      //console.log('not valid genearte command');
       this.form.patchValue({
         grasscutterCommand: null,
       });
