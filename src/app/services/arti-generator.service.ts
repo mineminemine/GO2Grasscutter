@@ -84,7 +84,7 @@ export class ArtiGeneratorService {
         });
 
         const level = artifact.level + 1;
-        command += `giveart @${uid} ${artifactSetKey} ${mainStatKey} ${substatKeys} ${level.toString()} \n`;
+        command += `give @${uid} ${artifactSetKey} ${mainStatKey} ${substatKeys} ${level.toString()} \n`;
         // Removes any double spaces
         command = command.replace(/  +/g, ' ');
       } catch (e) {
@@ -120,7 +120,7 @@ export class ArtiGeneratorService {
       }
 
       const level = form.controls['level'].value + 1;
-      command += `giveart @${
+      command += `give @${
         form.controls['uid'].value
       } ${artifactSetKey} ${mainStatKey} ${substatKeys} ${level.toString()} \n`;
       // Removes any double spaces
