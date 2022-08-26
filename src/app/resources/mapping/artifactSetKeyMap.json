@@ -49,6 +49,13 @@
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15006_4.png"
   },
   {
+    "key": "DeepwoodMemories",
+    "id": "20",
+    "name": "Deepwood Memories",
+    "rarities": [4, 5],
+    "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15025_4.png"
+  },
+  {
     "key": "DefendersWill",
     "id": "53",
     "name": "Defender's Will",
@@ -75,6 +82,13 @@
     "name": "Gambler",
     "rarities": [3, 4],
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_10008_4.png"
+  },
+  {
+    "key": "GildedDreams",
+    "id": "21",
+    "name": "Gilded Dreams",
+    "rarities": [4, 5],
+    "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15026_4.png"
   },
   {
     "key": "GladiatorsFinale",

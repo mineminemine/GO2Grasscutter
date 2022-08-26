@@ -34,6 +34,11 @@
     "name": "Crimson Witch Of Flames",
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15006_4.png"
   },
+  "DeepwoodMemories": {
+    "id": "20",
+    "name": "Deepwood Memories",
+    "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15025_4.png"
+  },
   "DefendersWill": {
     "id": "53",
     "name": "Defender's Will",
@@ -53,6 +58,11 @@
     "id": "58",
     "name": "Gambler",
     "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_10008_4.png"
+  },
+  "GildedDreams": {
+    "id": "21",
+    "name": "Gilded Dreams",
+    "imageUrl": "https://api.ambr.top/assets/UI/reliquary/UI_RelicIcon_15026_4.png"
   },
   "GladiatorsFinale": {
     "id": "75",
