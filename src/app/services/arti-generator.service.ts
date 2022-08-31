@@ -83,8 +83,8 @@ export class ArtiGeneratorService {
           }
         });
 
-        const level = artifact.level + 1;
-        command += `give @${uid} ${artifactSetKey} ${mainStatKey} ${substatKeys} ${level.toString()} \n`;
+        const level = artifact.level;
+        command += `give @${uid} ${artifactSetKey} ${mainStatKey} ${substatKeys} lv${level.toString()} \n`;
         // Removes any double spaces
         command = command.replace(/  +/g, ' ');
       } catch (e) {
@@ -119,10 +119,10 @@ export class ArtiGeneratorService {
         substatKeys += this.generateSubstatCommand(form, i);
       }
 
-      const level = form.controls['level'].value + 1;
+      const level = form.controls['level'].value;
       command += `give @${
         form.controls['uid'].value
-      } ${artifactSetKey} ${mainStatKey} ${substatKeys} ${level.toString()} \n`;
+      } ${artifactSetKey} ${mainStatKey} ${substatKeys} lv${level.toString()} \n`;
       // Removes any double spaces
       command = command.replace(/  +/g, ' ');
     } catch (e) {
